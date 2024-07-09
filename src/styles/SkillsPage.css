@@ -1,0 +1,172 @@
+.skills-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.skills-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--light-text-color, #333);
+  text-align: center;
+  font-family: Cabin Sketch;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143.203%; /* 71.602px */
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.skills-section {
+  width: 30%; /* Adjust width as needed */
+  display: flex;
+  justify-content: center;
+}
+
+.image-section {
+  width: 30%; /* Adjust width as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.additional-skills-section {
+  /* margin-top: 20px;
+  width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 100%; /* Full width of the container */
+  height: auto; /* Automatically adjust height based on content */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 16px;
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: #3c3c43;
+  border-radius: 5px;
+  width: 100%; /* Make progress bar full width */
+}
+
+.progress-text {
+  color: rgba(102, 102, 102, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Source Code Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #3c3c43;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Source Code Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.skill:hover {
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+
+.skill-name {
+  color: #000;
+  font-family: "Source Code Pro", monospace;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .image-section {
+    display: none; /* Hide the image section on small screens */
+  }
+
+  .skills-container {
+    flex-direction: row; /* Stack the cards vertically */
+    align-items: center;
+  }
+
+  .skills-section {
+    width: 100%; /* Full width on small screens */
+    max-width: 100%; /* Ensure full width */
+    margin-bottom: 20px; /* Add some space between cards */
+  }
+
+  .additional-skills-section {
+    width: 100%;
+  }
+
+  .card {
+    width: 90%; /* Adjust card width to fit smaller screens */
+    max-width: none; /* Ensure full width */
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-heading {
+    font-size: 36px; /* Adjust heading size for very small screens */
+  }
+
+  .skills-section {
+    width: 100%; /* Full width on very small screens */
+    max-width: 100%; /* Ensure full width */
+  }
+
+  .card {
+    width: 100%; /* Adjust card width to fit very small screens */
+    padding: 12px; /* Adjust padding for smaller screens */
+  }
+
+  .skill {
+    font-size: 10px; /* Adjust skill font size */
+    padding: 4px 8px; /* Adjust skill padding */
+  }
+
+  .progress-text {
+    font-size: 10px; /* Adjust progress text size */
+  }
+
+  .skill-name {
+    font-size: 16px; /* Adjust skill name size */
+  }
+}

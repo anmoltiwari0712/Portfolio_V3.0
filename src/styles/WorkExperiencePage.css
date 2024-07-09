@@ -1,0 +1,40 @@
+.work-experience-page {
+  padding: 40px 20px;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.work-experience-heading {
+  color: var(--light-text-color, #333);
+  text-align: center;
+  font-family: Cabin Sketch;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143.203%; /* 71.602px */
+  margin: 0;
+}
+
+.carousel-container {
+  margin-top: 20px;
+  padding-left: 44px; /* Adjust padding as needed */
+  padding-right: 40px;
+  margin-left: 40px;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add custom styles for arrows if needed */
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-prev:before {
+  padding-right: 40px;
+}
+
+@media (max-width: 768px) {
+}

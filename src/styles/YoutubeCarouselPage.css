@@ -1,0 +1,38 @@
+/* //youtubecarouselpage */
+.youtube-carousel-page {
+  padding: 40px 20px;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.youtube-carousel-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 30px;
+}
+
+.carousel-container2 {
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.heading-title2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--font-color-sub);
+  display: flex;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: 200; */
+  font-style: normal;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+
+}

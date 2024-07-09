@@ -1,0 +1,75 @@
+/* AboutMe.css */
+
+.about-container {
+  padding: 40px;
+  background-color: #f8f9fa; /* Background color for the about section */
+}
+
+.about-heading {
+  color: var(--light-text-color, #333);
+  text-align: center;
+  font-family: Cabin Sketch;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143.203%;
+  margin: 0;
+  padding-bottom: 40px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Adjust layout for smaller devices */
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-right {
+  flex: 2;
+  padding: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+.about-description {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-left,
+  .about-right {
+    padding: 10px;
+  }
+
+  .about-heading {
+    font-size: 28px;
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+}

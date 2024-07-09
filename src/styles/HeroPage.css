@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap");
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust the height as needed */
+  background-color: #f0f0f0; /* Background color for the hero section */
+  background-color: #ffdccb;
+  margin: 0;
+  background-image: url(background.png);
+  background-size: 1420px;
+}
+
+.hero-left {
+  overflow: hidden;
+  width: 33.33%;
+}
+
+.hero-left img {
+  width: 100%;
+  transform: translateX(-30%);
+}
+
+.hero-image {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto;
+}
+
+.hero-image2 {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto;
+}
+
+.hero-center {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0px;
+  padding-left: 0px;
+  gap: 0px;
+}
+
+.heading1 {
+  color: #000;
+  font-family: Cabin Sketch;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-family: "Cabin Sketch", sans-serif;
+  margin: 0;
+}
+
+.hero-image-center {
+  max-width: 40%; /* Ensure the image fits within its container */
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.pod-img {
+  padding-left: 80px; /* Adjust as needed */
+  /* margin-top: 120px; */
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-top: 300px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+}
+.heading-title2 {
+  font-size: 24px;
+  font-weight: 100;
+  color: var(--font-color-sub);
+  display: flex;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: 200; */
+  font-style: normal;
+  justify-content: center;
+  padding-bottom: 0px;
+  align-items: center;
+  /* text-decoration: underline; */
+
+  /* min-height: 160px; */
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto; /* Adjust the height for smaller devices */
+  }
+
+  .hero-left {
+    display: none;
+  }
+
+  .hero-right {
+    order: 1;
+    width: 60%; /* Make sure it takes full width */
+    padding-top: 20px; /* Adjust padding as needed */
+    margin-bottom: 0; /* Reduce the gap by adjusting the margin */
+  }
+  .top-div {
+    margin-top: auto;
+  }
+  .hero-center {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Make sure it takes full width */
+    padding: 0 0px; /* Add padding for better spacing on smaller devices */
+    padding-bottom: 20px;
+  }
+
+  .hero-text {
+    margin: 0 auto;
+    padding-top: 10px; /* Optional: Add some padding to separate text slightly */
+    align-items: center;
+  }
+
+  .hero-text .heading1 {
+    font-size: 36px;
+  }
+
+  .hero-text .heading2 {
+    font-size: 24px;
+    align-items: center;
+  }
+
+  .hero-image-center {
+    /* margin-top: 10px; Adjust margin to reduce gap on mobile */
+    /* max-width: 60%; Adjust max width for smaller devices */
+    display: none;
+  }
+}
