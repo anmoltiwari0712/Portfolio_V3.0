@@ -5,7 +5,7 @@ import aboutImage from "../assets/aboutme.png"; // Replace with your actual imag
 const AboutMe = () => {
   return (
     <div className="about-container">
-      <h1 className="about-heading">y Story So far......</h1>
+      <h1 className="about-heading">My Story So far......</h1>
       <div className="about-content">
         <div className="about-left">
           <img src={aboutImage} alt="About Me" className="about-image" />

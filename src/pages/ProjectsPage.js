@@ -14,8 +14,8 @@ import simon from "../assets/simon.png";
 import drum from "../assets/drum.png";
 import virtual from "../assets/virtual.png";
 import employee from "../assets/employee.jpg";
-import aptiquest from "../assets/aptiquest.png"
-
+import aptiquest from "../assets/aptiquest.png";
+import tm from "../assets/tmanager.png";
 
 const ProjectsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -36,6 +36,14 @@ const ProjectsPage = () => {
         "aptiquest.in, a MERN app for aptitude preparation. Engaging questions and puzzles to sharpen logical and numerical skills, comprehensive study materials including formulas and explanations, and intuitive progress tracking to improve performance",
       link: "https://aptiquest.in",
       image: aptiquest, // Add your image path here
+    },
+    {
+      title: "Transcation Manager",
+      category: "Development",
+      description:
+        "Take your income and expenses to the next level with fun tracking and visualization! This app transforms regular financial management into a fun transaction manager. A few clicks are all it takes to include, adjust, or delete transactions.",
+      link: "https://transcation-manager-application.vercel.app/",
+      image: tm,
     },
     {
       title: "Healthsyncc",
