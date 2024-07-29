@@ -16,6 +16,8 @@ import virtual from "../assets/virtual.png";
 import employee from "../assets/employee.jpg";
 import aptiquest from "../assets/aptiquest.png";
 import tm from "../assets/tmanager.png";
+import hdfc from "../assets/hdfc.png";
+import hdfc2 from "../assets/hdfc2.png";
 
 const ProjectsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -31,11 +33,19 @@ const ProjectsPage = () => {
   const cards = [
     {
       title: "AptiQuest",
-      category: "Development",
+      category: "Design",
       description:
         "aptiquest.in, a MERN app for aptitude preparation. Engaging questions and puzzles to sharpen logical and numerical skills, comprehensive study materials including formulas and explanations, and intuitive progress tracking to improve performance",
       link: "https://aptiquest.in",
       image: aptiquest, // Add your image path here
+    },
+    {
+      title: "HDFC Banking App",
+      category: "Development",
+      description:
+        "A comprehensive case study detailing the transformation of the HDFC Bank app's user experience through innovative design solutions, addressing usability issues, and enhancing visual appeal.",
+      link: "https://www.behance.net/gallery/204294761/Hdfc-Banking-App-Redesigned-",
+      image: hdfc2, // Add your image path here
     },
     {
       title: "Transcation Manager",
